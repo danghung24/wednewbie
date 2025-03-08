@@ -1,12 +1,64 @@
-# React + Vite
+# Step by step to create initial react app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ 1. run the following command and choose your techstack (javascript -> reactjs)
+```sh
+npm create vite@latest frontend 
+```
 
-Currently, two official plugins are available:
+ 2. next, run the command
+```sh
+cd frontend
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 3. install library (redux-toolkit, redux, router-dom, ...)
+```sh
+npm install @reduxjs/toolkit react-redux react-router-dom styled-components react-icon
+```
 
-## Expanding the ESLint configuration
+ 4. run project in localhost (default port: http://localhost:5174)
+```sh
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to push project to git
+
+ 1. create a repository in git (ignore README.md while create app) and copy url (default branch: master)
+
+ 2. open the command line, go to the created project folder, and run the following command to create git in local
+```sh
+git init
+```
+
+ 3. add all file into git (git ignores empty directories by default)
+```sh
+git add .
+```
+
+ 4. link between local and repository
+```sh
+git remote add origin https://github.com/Nguyentanengr/initial-react-app.git
+```
+
+ 5. commit and push project to branch master in repository
+```sh
+git commit -m 'initial react app;
+git push origin master
+```
+
+# How to clone project and run
+
+ 1. copy url of project ('https://github.com/.../initial-react-app.git') and run command
+```sh
+git clone https://github.com/Nguyentanengr/initial-react-app.git
+```
+
+ 2. install library packages defined inside the project
+```sh
+npm install 
+```
+
+ 3. run project 
+```sh
+npm run dev
+```
+
