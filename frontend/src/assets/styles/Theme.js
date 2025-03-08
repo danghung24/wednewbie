@@ -1,7 +1,8 @@
 
 export const Theme = {
     header: "#ffffff",
-    body: "#F7F7F8",
+    body: "#FFFFFF",
+    logo: "#E60023",
     sideBar: "#efeff1",
     highlight: "#9147ff",
     text: "#0e0e10",
@@ -16,12 +17,14 @@ export const Theme = {
     bits: "#e9e9e9",
     border: "#efeff1",
     iconColor: "#0e0e10",
-    content: "#f7f7f8",
+    content: "#ffffee",
     dark: "#0e0e10",
     hotRed: "#ff0000",
     lightDark: "#585756",
     pink: "#ff75e6",
     blue: "#0000FF",
     violet: "#C516A5",
-    success: "#00f510"
+    success: "#00f510",
+    midLogo: "#710000",
+    mediumLogo: "#410000",
 }
