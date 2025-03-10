@@ -86,7 +86,7 @@ const Login = () => {
     }, []);
 
     useEffect(() => {
-        if (loginState.user) navigate("/home");
+        if (loginState.user) navigate("/register");
     }, [loginState.user])
 
     return (

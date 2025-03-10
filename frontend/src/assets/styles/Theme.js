@@ -17,7 +17,7 @@ export const Theme = {
     bits: "#e9e9e9",
     border: "#efeff1",
     iconColor: "#0e0e10",
-    content: "#ffffee",
+    content: "#ffffff", //"#ffffee"
     dark: "#0e0e10",
     hotRed: "#ff0000",
     lightDark: "#585756",
@@ -27,4 +27,5 @@ export const Theme = {
     success: "#00f510",
     midLogo: "#710000",
     mediumLogo: "#410000",
+    textSoft: "#333333",
 }

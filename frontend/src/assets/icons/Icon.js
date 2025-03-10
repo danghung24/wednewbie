@@ -6,7 +6,9 @@ import { BiChevronDown, BiChevronUp, BiHeart, BiCommentDots, BiShare, BiSolidHea
 import { BiPlus, BiCheck, BiVolumeFull, BiVolumeMute, BiSend, BiPlay, BiFullscreen} from "react-icons/bi";
 import { BiLogoYoutube, BiLogoTiktok, BiLogoDiscord, BiBroadcast, BiCaretRightSquare} from "react-icons/bi";
 import { BiImageAdd, BiMessageAltError, BiUserCheck, BiLogIn, BiMenu, BiSolidUser, BiSolidLockAlt  } from "react-icons/bi";
-import { BsXLg } from "react-icons/bs";
+
+import { BiAlarm } from "react-icons/bi";
+import { BsXLg, BsChevronDown } from "react-icons/bs";
 import { HiOutlineXMark } from "react-icons/hi2";
 import { FaTimes } from "react-icons/fa";
 
@@ -58,5 +60,7 @@ export const Icons = {
     Menu: BiMenu,
     User: BiSolidUser,
     Lock: BiSolidLockAlt,
+    Clock: BiAlarm,
+    FlatArrowDown: BsChevronDown,
 
 }
