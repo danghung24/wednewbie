@@ -25,6 +25,7 @@ export const Theme = {
     blue: "#0000FF",
     violet: "#C516A5",
     success: "#00f510",
+    lightSuccess: "#AEFFA3",
     midLogo: "#710000",
     mediumLogo: "#410000",
     textSoft: "#333333",

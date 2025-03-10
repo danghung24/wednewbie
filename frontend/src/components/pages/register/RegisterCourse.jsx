@@ -3,6 +3,7 @@ import { RegisterCourseContainer } from "./RegisterCourse.styled";
 import { Icons } from "../../../assets/icons/Icon";
 import FilterArea from "../../features/register/FilterArea";
 import RegisterArea from "../../features/register/RegisterArea";
+import SelectedArea from "../../features/register/SelectedArea";
 
 const RegisterCourse = () => {
 
@@ -102,6 +103,42 @@ const RegisterCourse = () => {
 
     ]
 
+    const selectedSession = [
+        {
+            id: "INT1210", 
+            nameCourse: "Nhập môn trí tuệ nhân tạo",
+            class: "D22CQCN02-N",
+            group: "02",
+            credits: 3,
+            registerDate: "20.02.2025: 12:30:23",
+            startDate: "21.03.2025",
+            endDate: "14.07.2025",
+            status: "pending",
+        },
+        {
+            id: "INT1210", 
+            nameCourse: "An toàn bảo mật hệ thống thông tin",
+            class: "D22CQCN02-N",
+            group: "01",
+            credits: 3,
+            registerDate: "20.02.2025: 12:30:33",
+            startDate: "21.03.2025",
+            endDate: "14.07.2025",
+            status: "pending",
+        },
+        {
+            id: "INT1210", 
+            nameCourse: "An toàn bảo mật hệ thống thông tin",
+            class: "D22CQCN02-N",
+            group: "02",
+            credits: 3,
+            registerDate: "20.02.2025: 14:30:47",
+            startDate: "21.03.2025",
+            endDate: "14.07.2025",
+            status: "confirmed",
+        },
+    ]
+
     const [selected, setSelected] = useState(options[0]);
 
 
@@ -118,7 +155,7 @@ const RegisterCourse = () => {
                 <RegisterArea sessionList={openingSession}/>
             </div>
             <div className="selected-area">
-
+                <SelectedArea sessionList={selectedSession}/>
             </div>
         </RegisterCourseContainer>
     );

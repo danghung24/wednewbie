@@ -23,6 +23,9 @@ export const RegisterAreaContainer = styled.div`
             border-bottom: 1px solid ${Theme.hover};
         }
 
+        td {
+            padding: 18px;
+        }
 
         tr.boldHighlight {
             background-color: #FF7575;

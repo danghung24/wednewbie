@@ -49,10 +49,11 @@ export const FilterAreaContainer = styled.div`
 
                 .option-container {
                     position: absolute;
+                    background-color: ${Theme.body};
                     top: 120%;
                     left: 0;
                     border-radius: 10px;
-                    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+                    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
                     font-size: 20px;
                     .option-item {
                         padding: 15px 20px;
