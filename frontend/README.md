@@ -52,12 +52,17 @@ git push origin master
 git clone https://github.com/Nguyentanengr/initial-react-app.git
 ```
 
- 2. install library packages defined inside the project
+2. Open cmd and move to project
+```
+cd frontend
+```
+
+ 3. install library packages defined inside the project
 ```sh
 npm install 
 ```
 
- 3. run project 
+ 4. run project 
 ```sh
 npm run dev
 ```
