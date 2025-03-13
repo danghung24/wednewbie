@@ -29,4 +29,5 @@ export const Theme = {
     midLogo: "#710000",
     mediumLogo: "#410000",
     textSoft: "#333333",
+    
 }

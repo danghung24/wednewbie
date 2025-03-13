@@ -45,6 +45,7 @@ const Login = () => {
                         isSuccess: "Đăng nhập thành công",
                         user: {id: "N22DCCN156", fullname: "Phạm Tấn Nguyên"}
                     }));
+                    navigate("/New");
                 } else {
                     console.log("login error");
                     

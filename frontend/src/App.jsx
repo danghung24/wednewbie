@@ -4,6 +4,7 @@ import MainLayout from "./components/layouts/MainLayout";
 import Home from "./components/pages/home/Home";
 import Login from "./components/pages/login/Login";
 import RegisterCourse from "./components/pages/register/RegisterCourse";
+import New from "./components/pages/new/New";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
             <Route index element={<Login />} /> 
             <Route path="/home" element={<Home />} />
             <Route path="/register" element={<RegisterCourse />} />
+            <Route path="/new" element={<New />} />
           </Route>
 
           {/* Not layout applied */}
